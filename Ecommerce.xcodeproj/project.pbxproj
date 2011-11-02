@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464DB2981461D45A0056C48F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464DB2971461D45A0056C48F /* UIKit.framework */; };
+		464DB29A1461D45A0056C48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464DB2991461D45A0056C48F /* Foundation.framework */; };
+		464DB29C1461D45A0056C48F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464DB29B1461D45A0056C48F /* CoreGraphics.framework */; };
+		464DB2A21461D45A0056C48F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 464DB2A01461D45A0056C48F /* InfoPlist.strings */; };
+		464DB2A51461D45A0056C48F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464DB2A41461D45A0056C48F /* main.m */; };
+		464DB2A81461D45A0056C48F /* EcommerceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464DB2A71461D45A0056C48F /* EcommerceAppDelegate.m */; };
+		464DB2AB1461D45A0056C48F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464DB2A91461D45A0056C48F /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		464DB2931461D45A0056C48F /* Ecommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464DB2971461D45A0056C48F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		464DB2991461D45A0056C48F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		464DB29B1461D45A0056C48F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		464DB29F1461D45A0056C48F /* Ecommerce-Info.plist */ = {isa = PBXFileReference; path = "Ecommerce-Info.plist"; sourceTree = "<group>"; };
+		464DB2A11461D45A0056C48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		464DB2A31461D45A0056C48F /* Ecommerce-Prefix.pch */ = {isa = PBXFileReference; path = "Ecommerce-Prefix.pch"; sourceTree = "<group>"; };
+		464DB2A41461D45A0056C48F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		464DB2A61461D45A0056C48F /* EcommerceAppDelegate.h */ = {isa = PBXFileReference; path = EcommerceAppDelegate.h; sourceTree = "<group>"; };
+		464DB2A71461D45A0056C48F /* EcommerceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcommerceAppDelegate.m; sourceTree = "<group>"; };
+		464DB2AA1461D45A0056C48F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464DB2901461D45A0056C48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464DB2981461D45A0056C48F /* UIKit.framework in Frameworks */,
+				464DB29A1461D45A0056C48F /* Foundation.framework in Frameworks */,
+				464DB29C1461D45A0056C48F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464DB2881461D45A0056C48F = {
+			isa = PBXGroup;
+			children = (
+				464DB29D1461D45A0056C48F /* Ecommerce */,
+				464DB2961461D45A0056C48F /* Frameworks */,
+				464DB2941461D45A0056C48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464DB2941461D45A0056C48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464DB2931461D45A0056C48F /* Ecommerce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464DB2961461D45A0056C48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464DB2971461D45A0056C48F /* UIKit.framework */,
+				464DB2991461D45A0056C48F /* Foundation.framework */,
+				464DB29B1461D45A0056C48F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464DB29D1461D45A0056C48F /* Ecommerce */ = {
+			isa = PBXGroup;
+			children = (
+				464DB2A61461D45A0056C48F /* EcommerceAppDelegate.h */,
+				464DB2A71461D45A0056C48F /* EcommerceAppDelegate.m */,
+				464DB2A91461D45A0056C48F /* MainWindow.xib */,
+				464DB29E1461D45A0056C48F /* Supporting Files */,
+			);
+			path = Ecommerce;
+			sourceTree = "<group>";
+		};
+		464DB29E1461D45A0056C48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				464DB29F1461D45A0056C48F /* Ecommerce-Info.plist */,
+				464DB2A01461D45A0056C48F /* InfoPlist.strings */,
+				464DB2A31461D45A0056C48F /* Ecommerce-Prefix.pch */,
+				464DB2A41461D45A0056C48F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464DB2921461D45A0056C48F /* Ecommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464DB2AE1461D45A0056C48F /* Build configuration list for PBXNativeTarget "Ecommerce" */;
+			buildPhases = (
+				464DB28F1461D45A0056C48F /* Sources */,
+				464DB2901461D45A0056C48F /* Frameworks */,
+				464DB2911461D45A0056C48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecommerce;
+			productName = Ecommerce;
+			productReference = 464DB2931461D45A0056C48F /* Ecommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464DB28A1461D45A0056C48F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 464DB28D1461D45A0056C48F /* Build configuration list for PBXProject "Ecommerce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 464DB2881461D45A0056C48F;
+			productRefGroup = 464DB2941461D45A0056C48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464DB2921461D45A0056C48F /* Ecommerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464DB2911461D45A0056C48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464DB2A21461D45A0056C48F /* InfoPlist.strings in Resources */,
+				464DB2AB1461D45A0056C48F /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464DB28F1461D45A0056C48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464DB2A51461D45A0056C48F /* main.m in Sources */,
+				464DB2A81461D45A0056C48F /* EcommerceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		464DB2A01461D45A0056C48F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464DB2A11461D45A0056C48F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		464DB2A91461D45A0056C48F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464DB2AA1461D45A0056C48F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464DB2AC1461D45A0056C48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		464DB2AD1461D45A0056C48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		464DB2AF1461D45A0056C48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ecommerce/Ecommerce-Prefix.pch";
+				INFOPLIST_FILE = "Ecommerce/Ecommerce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		464DB2B01461D45A0056C48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ecommerce/Ecommerce-Prefix.pch";
+				INFOPLIST_FILE = "Ecommerce/Ecommerce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464DB28D1461D45A0056C48F /* Build configuration list for PBXProject "Ecommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464DB2AC1461D45A0056C48F /* Debug */,
+				464DB2AD1461D45A0056C48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464DB2AE1461D45A0056C48F /* Build configuration list for PBXNativeTarget "Ecommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464DB2AF1461D45A0056C48F /* Debug */,
+				464DB2B01461D45A0056C48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464DB28A1461D45A0056C48F /* Project object */;
+}
