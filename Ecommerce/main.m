@@ -2,7 +2,7 @@
 //  main.m
 //  Ecommerce
 //
-//  Created by 猪小小 on 02/11/2011.
+//  Created by Pengyu Lan on 02/11/2011.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
